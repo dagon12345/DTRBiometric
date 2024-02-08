@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="PrintTotalHours" targetNamespace="http://tempuri.org/PrintTotalHours.xsd" xmlns:mstns="http://tempuri.org/PrintTotalHours.xsd" xmlns="http://tempuri.org/PrintTotalHours.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="PrintTotalHours" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="PrintTotalHours" msprop:Generator_UserDSName="PrintTotalHours">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable1" msprop:Generator_TableClassName="DataTable1DataTable" msprop:Generator_TableVarName="tableDataTable1" msprop:Generator_RowChangedName="DataTable1RowChanged" msprop:Generator_TablePropName="DataTable1" msprop:Generator_RowDeletingName="DataTable1RowDeleting" msprop:Generator_RowChangingName="DataTable1RowChanging" msprop:Generator_RowEvHandlerName="DataTable1RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable1RowDeleted" msprop:Generator_RowClassName="DataTable1Row" msprop:Generator_UserTableName="DataTable1" msprop:Generator_RowEvArgName="DataTable1RowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Date" msprop:Generator_ColumnVarNameInTable="columnDate" msprop:Generator_ColumnPropNameInRow="Date" msprop:Generator_ColumnPropNameInTable="DateColumn" msprop:Generator_UserColumnName="Date" type="xs:string" minOccurs="0" />
+              <xs:element name="IDNumber" msprop:Generator_ColumnVarNameInTable="columnIDNumber" msprop:Generator_ColumnPropNameInRow="IDNumber" msprop:Generator_ColumnPropNameInTable="IDNumberColumn" msprop:Generator_UserColumnName="IDNumber" type="xs:string" minOccurs="0" />
+              <xs:element name="FullName" msprop:Generator_ColumnVarNameInTable="columnFullName" msprop:Generator_ColumnPropNameInRow="FullName" msprop:Generator_ColumnPropNameInTable="FullNameColumn" msprop:Generator_UserColumnName="FullName" type="xs:string" minOccurs="0" />
+              <xs:element name="Department" msprop:Generator_ColumnVarNameInTable="columnDepartment" msprop:Generator_ColumnPropNameInRow="Department" msprop:Generator_ColumnPropNameInTable="DepartmentColumn" msprop:Generator_UserColumnName="Department" type="xs:string" minOccurs="0" />
+              <xs:element name="TimeIn" msprop:Generator_ColumnVarNameInTable="columnTimeIn" msprop:Generator_ColumnPropNameInRow="TimeIn" msprop:Generator_ColumnPropNameInTable="TimeInColumn" msprop:Generator_UserColumnName="TimeIn" type="xs:string" minOccurs="0" />
+              <xs:element name="TimeInOverTimeHours" msprop:Generator_ColumnVarNameInTable="columnTimeInOverTimeHours" msprop:Generator_ColumnPropNameInRow="TimeInOverTimeHours" msprop:Generator_ColumnPropNameInTable="TimeInOverTimeHoursColumn" msprop:Generator_UserColumnName="TimeInOverTimeHours" type="xs:string" minOccurs="0" />
+              <xs:element name="TimeOut" msprop:Generator_ColumnVarNameInTable="columnTimeOut" msprop:Generator_ColumnPropNameInRow="TimeOut" msprop:Generator_ColumnPropNameInTable="TimeOutColumn" msprop:Generator_UserColumnName="TimeOut" type="xs:string" minOccurs="0" />
+              <xs:element name="TimeOutOverTimeHours" msprop:Generator_ColumnVarNameInTable="columnTimeOutOverTimeHours" msprop:Generator_ColumnPropNameInRow="TimeOutOverTimeHours" msprop:Generator_ColumnPropNameInTable="TimeOutOverTimeHoursColumn" msprop:Generator_UserColumnName="TimeOutOverTimeHours" type="xs:string" minOccurs="0" />
+              <xs:element name="TotalHours" msprop:Generator_ColumnVarNameInTable="columnTotalHours" msprop:Generator_ColumnPropNameInRow="TotalHours" msprop:Generator_ColumnPropNameInTable="TotalHoursColumn" msprop:Generator_UserColumnName="TotalHours" type="xs:int" minOccurs="0" />
+              <xs:element name="OverTimeHours" msprop:Generator_ColumnVarNameInTable="columnOverTimeHours" msprop:Generator_ColumnPropNameInRow="OverTimeHours" msprop:Generator_ColumnPropNameInTable="OverTimeHoursColumn" msprop:Generator_UserColumnName="OverTimeHours" type="xs:int" minOccurs="0" />
+              <xs:element name="Total_x0020_Working_x0020_Hours" msprop:Generator_ColumnVarNameInTable="columnTotal_Working_Hours" msprop:Generator_ColumnPropNameInRow="Total_Working_Hours" msprop:Generator_ColumnPropNameInTable="Total_Working_HoursColumn" msprop:Generator_UserColumnName="Total Working Hours" type="xs:string" minOccurs="0" />
+              <xs:element name="Total_x0020_OT_x0020_Hours" msprop:Generator_ColumnVarNameInTable="columnTotal_OT_Hours" msprop:Generator_ColumnPropNameInRow="Total_OT_Hours" msprop:Generator_ColumnPropNameInTable="Total_OT_HoursColumn" msprop:Generator_UserColumnName="Total OT Hours" type="xs:string" minOccurs="0" />
+              <xs:element name="Remarks" msprop:Generator_ColumnVarNameInTable="columnRemarks" msprop:Generator_ColumnPropNameInRow="Remarks" msprop:Generator_ColumnPropNameInTable="RemarksColumn" msprop:Generator_UserColumnName="Remarks" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
